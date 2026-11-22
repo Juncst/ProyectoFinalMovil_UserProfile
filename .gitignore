@@ -1,0 +1,15 @@
+
+# Node.js
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# Android
+.gradle/
+.idea/
+local.properties
+**/build/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
