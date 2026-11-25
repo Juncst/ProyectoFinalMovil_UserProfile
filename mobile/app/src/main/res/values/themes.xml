@@ -1,0 +1,17 @@
+<resources>
+    <style name="Base.Theme.UserProfileApp" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="colorOnBackground">@color/app_text</item>
+        <item name="colorOnSurface">@color/app_text</item>
+        <item name="colorOnSurfaceVariant">@color/app_secondary_text</item>
+        <item name="colorPrimary">@color/app_accent</item>
+        <item name="colorOnPrimary">@color/app_background</item>
+        <item name="colorSecondary">@color/app_accent</item>
+        <item name="colorOnSecondary">@color/app_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Theme.UserProfileApp" parent="Base.Theme.UserProfileApp" />
+</resources>
